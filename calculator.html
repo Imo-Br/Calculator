@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <style>
+    #numerator1,#numerator2{
+      width: 20px;
+      margin-bottom: 0;
+    }
+    #dash1{
+      margin-top: 0px;
+      margin-bottom: 0px;   
+      margin-left: 8px;
+     }
+    #denominator1,#denominator2{
+      width: 20px;
+      margin-top: 0px;
+    }
+
+  </style>
+<h1>Welcome to the calculator</h1><br>
+<label for="">Enter your first variable</label> <br><br>
+<input type="text" name="" id="Variable1" value="" /><br><br>
+<label for="">Enter your second variable</label><br><br>
+<input type="text" name="" id="Variable2"><br><br>
+<label for="">What type of calculation is it</label><br><br>
+<input type="radio" name="type" id="addition">Addition <br><br>
+<input type="radio" name="type" id="subtraction">Substraction<br><br>
+<input type="radio" name="type" id="multiplication">Multiplication<br><br>
+<input type="radio" name="type" id="division">Division <br><br>
+<button id="btn">Calculate</button><br><br>
+<p id="p"></p>
+<hr>
+<h3>if you want to calculate fractions use the following</h3>
+<label for="">1st fraction</label><br><br>
+<input type="text" id="numerator1">
+<p id="dash1">-</p>
+<input type="text" id="denominator1"><br><br>
+<label for="">2nd fraction</label><br><br>
+<input type="text" id="numerator2">
+<p id="dash1">-</p>
+<input type="text" id="denominator2"><br><br>
+<input type="radio" name="operation" id="add">Addition <br><br>
+<input type="radio" name="operation" id="sub">Substraction<br><br>
+<input type="radio" name="operation" id="multi">Multiplication<br><br>
+<input type="radio" name="operation" id="div">Division <br><br>
+<button id="btn2">Calculate</button><br><br>
+<p id="p2"></p>
+<script src="calculator.js"></script>
+</body>
+
+</html>
